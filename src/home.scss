@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.header{
+    background-color: #19501c;
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width: 1200px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.name{
+    width: 151px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #59d474;
+    font-family: "Outfit";
+    font-weight: 900;
+}
+.navbar{
+    width: 331px;
+    height: 14px;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul{
+    align-items: center;
+    display: flex;
+    gap:30px;
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.055em;
+}
+.navbar li:hover {
+    padding: 10px;
+    background-color: #0dd724;
+    border-radius: 5px;
+}
