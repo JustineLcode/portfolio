@@ -69,9 +69,9 @@ body{
     background-color: #3dd05d;
     align-content: center;
     justify-content: center;
-
-.hero .container{
+.container{
     height: auto;
+    flex-direction: row !important;
 }
 .blocipsum{
     align-content: center;

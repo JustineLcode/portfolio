@@ -3,7 +3,7 @@ import './index.css'
 import './home.scss'; /* Pour importer les fichiers Sass!! */
 
 function Home() {
-  const [count, setCount] = useState(0)
+  /* const [count, setCount] = useState(0) */
 
   return (
     <>
@@ -39,7 +39,7 @@ function Home() {
             </div>
             </div>
             </section>
-      <div className="card">
+{/*       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -49,7 +49,7 @@ function Home() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-      </div>
+      </div> */}
     </>
   )
 }
