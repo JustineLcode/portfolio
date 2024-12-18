@@ -35,7 +35,7 @@ return (
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <section className="hero" id='hero'>
         <div className="container">
-            <div className="aboutme">
+            <div className="projects">
                 <h1>MY <span>PROJECTS</span>!</h1>
                     <h2>FRONTEND</h2>
                         <div className="swiper-frontend">
