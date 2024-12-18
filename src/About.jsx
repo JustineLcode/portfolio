@@ -1,8 +1,8 @@
 
 import './index.css'
-import './Projects.scss'; /* Pour importer les fichiers Sass!! */
+import './about.scss'; /* Pour importer les fichiers Sass!! */
 
-function Projects() {
+function About() {
 
 return (
     <>
@@ -22,4 +22,4 @@ I am now fully committed to developing my skills and bringing the same dedicatio
 )
 }
 
-export default Projects
+export default About
