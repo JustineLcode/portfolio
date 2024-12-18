@@ -1,5 +1,5 @@
 #hero{
-    background-color: #3dd05d;
+    background-color: #4dbd81;
     align-content: center;
     justify-content: center;
 .container{
@@ -10,7 +10,7 @@
         margin: auto;
     }
 
-.aboutme{
+.projects{
     align-content: center;
     height: auto;
     border-radius: 45px 0px 0px 0px;
@@ -39,13 +39,13 @@ p{
     letter-spacing: 0.02em;
     margin-bottom: 20px;
 }
-.blocipsum a{
+.projects a{
     text-decoration: none;
     width: 141px;
     height: 41px;
     top: 494px;
     left: 120px;
-    padding: 10px 27px 10px 27px;
+    padding: auto;
     gap: 10px;
     border-radius: 45px;
     background: #FFB800;
