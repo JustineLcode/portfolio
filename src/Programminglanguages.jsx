@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
-import './index.css'
-import './programminglanguages.scss'; /* Pour importer les fichiers Sass!! */
+import { useEffect } from 'react';
+import './styles.scss'
+import './_programminglanguages.scss'; /* Pour importer les fichiers Sass!! */
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -32,15 +32,13 @@ function Programminglanguages() {
 }, []);
 return (
     <>
-    
-    <section className="hero" id='hero'>
         <div className="container">
-            <div className="projects">
-                <h1>PROGRAMMING<span>LANGUAGES </span>!</h1>
-                    <h2>FRONTEND</h2> 
-            {/* <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> */}
-                    <div className="swiper-frontend swiper">
-                        <div className="swiper-wrapper">
+            <div className="blocprogramminglanguages">
+                <h1><span>PROGRAMMING LANGUAGES </span>!</h1>
+                <p>FRONTEND</p> 
+            </div>
+            <div className="swiper-frontend swiper">
+                <div className="swiper-wrapper">
                             <div className="swiper-slide">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Git Hub"/>
                             </div>    
@@ -62,15 +60,16 @@ return (
                             <div className="swiper-slide">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="REACT" />
                             </div>
-                        </div>
+                </div>
                             <button className="swiper-button-prev"></button>
                             <button className="swiper-button-next"></button>
-                        </div>
+            </div>
                     
-
-                    <h2>BACKEND</h2>
-                        <div className="swiper-backend swiper">
-                        <div className="swiper-wrapper">
+            <div className="blocprogramminglanguages">
+                <p>BACKEND</p>
+            </div>
+            <div className="swiper-backend swiper">
+                <div className="swiper-wrapper">
                             <div className="swiper-slide">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS"/>
                             </div>
@@ -86,13 +85,11 @@ return (
                             <div className="swiper-slide">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" alt="Mongoose"/>
                             </div>
-                        </div>
-                        <button className="swiper-button-prev"></button>
-                        <button className="swiper-button-next"></button>
-                        </div> 
-                        </div>
-            </div>
-    </section>
+                </div>
+                            <button className="swiper-button-prev"></button>
+                            <button className="swiper-button-next"></button>
+            </div> 
+        </div>
     </>
 )
 }

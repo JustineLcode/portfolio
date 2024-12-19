@@ -1,0 +1,23 @@
+.blocmyprojects{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.projects a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: beige;
+    font-size: 28px;
+    font-weight: 400;
+    max-width: 160px;
+}

@@ -3,6 +3,7 @@ import Projects from "./Projects"
 import About from "./about"
 import Home from "./Home"
 
+
 function App() {
     return <>
 <Home/>
