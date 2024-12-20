@@ -1,3 +1,4 @@
+@media (min-width:1024px){
 .blocmyprojects{
     display: flex;
     flex-direction: column;
@@ -6,9 +7,10 @@
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
     text-align: center;
+    align-items: center;
     margin-bottom: 100px;
 }
 .projects a{
@@ -20,4 +22,8 @@
     font-size: 28px;
     font-weight: 400;
     max-width: 160px;
+}
+.projects a:hover{
+    background: linear-gradient(#e591b1, #72eca3,  #4eed8e, #3cb86d);
+}
 }

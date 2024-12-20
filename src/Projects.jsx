@@ -6,7 +6,7 @@ function Projects() {
 
 return (
     <>
-        <div className="container">
+        <div className="container" id='projects'>
             <div className="blocmyprojects">
                 <h1>My <span>PROJECTS</span>!</h1>
                 <p>FRONTEND in 3 months of training</p>

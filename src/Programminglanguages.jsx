@@ -32,7 +32,7 @@ function Programminglanguages() {
 }, []);
 return (
     <>
-        <div className="container">
+        <div className="container" id='programminglanguages'>
             <div className="blocprogramminglanguages">
                 <h1><span>PROGRAMMING LANGUAGES </span>!</h1>
                 <p>FRONTEND</p> 

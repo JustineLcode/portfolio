@@ -6,7 +6,7 @@ function About() {
 
 return (
     <>
-        <div className="container">
+        <div className="container" id='about'>
             <div className="blocaboutme">
                 <h1><span>ABOUT ME</span>!</h1>
                 <p>After 7 years as a physiotherapist in geriatrics and 3 years working in invasive and non-invasive cardiac rhythmology, I made the decision to transition into a new career as a Web Developer.

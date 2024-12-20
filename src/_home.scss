@@ -1,3 +1,4 @@
+@media (min-width:1024px){
 #header{
     background: linear-gradient(#3cb86d, #4eed8e, #72eca3, #e591b1);
     margin-bottom: 50px;
@@ -36,6 +37,7 @@
 
 #hero{
 .container{
+    max-width: 90%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -59,7 +61,9 @@
     font-weight: 400;
     max-width: 160px;
 }
-
+.blocwelcome a:hover{
+    background: linear-gradient(#e591b1, #72eca3,  #4eed8e, #3cb86d);
+}
 .photo{
     width: 590px;
     height: 950px;
@@ -69,5 +73,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+}
 }
 }
