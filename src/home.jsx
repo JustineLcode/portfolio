@@ -27,7 +27,7 @@ function Home() {
                 <p> I am currently seeking a 2-month internship or job opportunity as a Web Developer for the months of April and May 2025. I am passionate about web technologies and eager to apply my skills in a professional setting while contributing to your team's success.</p>
                 <a href="#about"className="know"> Know more </a>
             </div>
-            <div className="photo"><img src="portfolio/imageju.png" alt="photo"/></div>
+            <div className="photo"><img src="portfolio\photojustine.jpg" alt="photo"/></div>
         </div>
     </section>
     </>
