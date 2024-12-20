@@ -7,34 +7,34 @@
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "4d0cf50b",
+      "fileHash": "e94f1f6e",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "ed31d038",
+      "fileHash": "db0385cb",
       "needsInterop": true
     },
     "swiper": {
       "src": "../../node_modules/swiper/swiper.mjs",
       "file": "swiper.js",
-      "fileHash": "8693a9a9",
+      "fileHash": "84011211",
       "needsInterop": false
     },
     "swiper/modules": {
       "src": "../../node_modules/swiper/modules/index.mjs",
       "file": "swiper_modules.js",
-      "fileHash": "0ec57766",
+      "fileHash": "87ca9f23",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-GP5W2EX5": {
-      "file": "chunk-GP5W2EX5.js"
-    },
     "chunk-JCH2SJW3": {
       "file": "chunk-JCH2SJW3.js"
+    },
+    "chunk-GP5W2EX5": {
+      "file": "chunk-GP5W2EX5.js"
     },
     "chunk-BUSYA2B4": {
       "file": "chunk-BUSYA2B4.js"
