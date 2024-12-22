@@ -6,4 +6,14 @@
     flex-direction: column;
     gap: 50px;
 }
+} 
+@media (max-width:1024px) {
+    .blocaboutme{
+        display: flex;
+        align-content: center;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
 }

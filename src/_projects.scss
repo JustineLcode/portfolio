@@ -27,3 +27,36 @@
     background: linear-gradient(#e591b1, #72eca3,  #4eed8e, #3cb86d);
 }
 }
+
+@media (max-width:1024px) {
+    .blocmyprojects{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .projects a{
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: black;
+        color: beige;
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 80px;
+    }
+    .projects a:hover{
+        background: linear-gradient(#e591b1, #72eca3,  #4eed8e, #3cb86d);
+    }
+}
