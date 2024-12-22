@@ -73,9 +73,27 @@ p{
 }
 
 .container{
-  width: 400px;
+  width: 650px;
   max-width: 100%;
   height: auto;
   margin: auto;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: lightgreen;
+  line-height: 50px;
 }
 }
