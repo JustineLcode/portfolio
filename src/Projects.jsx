@@ -8,7 +8,7 @@ return (
     <>
         <div className="container" id='projects'>
             <div className="blocmyprojects">
-                <h1>My <span>PROJECTS</span>!</h1>
+                <h1><span>My Projects</span>!</h1>
                 <p>FRONTEND in 3 months of training</p>
             </div>
                 <div className="projects">

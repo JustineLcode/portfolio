@@ -8,7 +8,7 @@ return (
     <>
         <div className="container" id='about'>
             <div className="blocaboutme">
-                <h1><span>ABOUT ME</span>!</h1>
+                <h1><span>About Me</span>!</h1>
                 <p>After 7 years as a physiotherapist in geriatrics and 3 years working in invasive and non-invasive cardiac rhythmology, I made the decision to transition into a new career as a Web Developer.
 
 During my time in cardiac rhythmology, I discovered my passion for algorithms while working on the settings of pacemakers and defibrillators. This experience sparked my curiosity for technology and logic-based problem solving, leading me to pursue web development.

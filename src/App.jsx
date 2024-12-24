@@ -2,6 +2,7 @@ import Programminglanguages from "./Programminglanguages"
 import Projects from "./Projects"
 import About from "./about"
 import Home from "./home"
+import Contact from "./Contact"
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
 <About/>
 <Projects/>
 <Programminglanguages/>
+<Contact/>
+
     </>
 
 }

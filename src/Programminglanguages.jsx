@@ -34,7 +34,7 @@ return (
     <>
         <div className="container" id='programminglanguages'>
             <div className="blocprogramminglanguages">
-                <h1><span>PROGRAMMING LANGUAGES </span>!</h1>
+                <h1><span>Programming Languages</span>!</h1>
                 <p>FRONTEND</p> 
             </div>
             <div className="swiper-frontend swiper">
