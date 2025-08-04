@@ -26,7 +26,7 @@ return (
             <div className="blocwelcome">
                 <h1><span>Welcome</span>!</h1>
                 <h2>Here is Justine's portfolio</h2>
-                <p> I am currently seeking a 2-month internship or job opportunity as a Web Developer for the months of April and May 2025. I am passionate about web technologies and eager to apply my skills in a professional setting while contributing to your team's success.</p>
+                <p>I am passionate about web technologies and eager to apply my skills in a professional setting while contributing to your team's success.</p>
                 <a href="#about"className="know"> Know more </a>
             </div>
             <div className="photo"><img src={photo} alt="photo"/></div>
